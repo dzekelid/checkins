@@ -4,7 +4,7 @@ url: checkins.streamdata.gallery
 tag: Checkins
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery
+github_user: streamdata-gallery-type
 github_repo: checkins
 github_branch: master
 collections:
