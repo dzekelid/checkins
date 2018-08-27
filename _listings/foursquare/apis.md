@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursq
 x-kinRank: "9"
 x-alexaRank: "2544"
 tags: Checkins
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/apis.md
 specificationVersion: "0.14"
 apis:
@@ -192,6 +192,51 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/checkinscheckin-iddeletecomment-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/checkinscheckin-iddeletecomment-post-openapi.md
+- name: Foursquare - Post Checkins Checkin Deletecomment
+  x-api-slug: checkinscheckin-iddeletecomment-post
+  description: /checkins/{CHECKIN_ID}/addcomment
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/checkinscheckin-iddeletecomment-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/checkinscheckin-iddeletecomment-post-openapi.md
+- name: Foursquare - Post Checkins Checkin Addcomment
+  x-api-slug: checkinscheckin-idaddcomment-post
+  description: /checkins/recent
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/checkinscheckin-idaddcomment-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/checkinscheckin-idaddcomment-post-openapi.md
+- name: Foursquare - Get Checkins Checkin
+  x-api-slug: checkinscheckin-id-get
+  description: /venuegroups/{GROUP_ID}/removevenue
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/checkinscheckin-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/checkinscheckin-id-get-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/foursquare.json

@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Checkins",
+	"description": "This is a repository of checkins APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/checkins.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://checkins.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Checkins",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Foursquare",
+			"x-api-slug": "foursquare",
+			"description": "Foursquare helps you find the perfect places to go with friends. Discover the best food, nightlife, and entertainment in your area.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg",
+			"humanURL": "http://blog.foursquare.com",
+			"baseURL": "https:///",
+			"tags": "Checkins",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AtlasCT",
+			"x-api-slug": "atlasct",
+			"description": "AtlasCT is a global leader in maps and location-based services (LBS) technologies for mobile and web.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/353-atlasct.jpg",
+			"humanURL": "http://www.atlasct.com/",
+			"baseURL": "https:///",
+			"tags": "Checkins",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/atlasct/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Envoy",
+			"x-api-slug": "envoy",
+			"description": "Envoy is visitor management software for modern offices. Easily manage visitor registration, deliveries, and document signing  all from an iPad. Try it free!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19407-envoy-(slackbot).jpg",
+			"humanURL": "https://envoy.com",
+			"baseURL": "https:///",
+			"tags": "Checkins",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/envoy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lufthansa",
+			"x-api-slug": "lufthansa",
+			"description": "Book your flights to Germany, Italy, UK or France online at attractive low fares. Fly via Frankfurt, Munich or Zurich - Lufthansa United States of America",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg",
+			"humanURL": "http://lufthansa.com",
+			"baseURL": "https://api.lufthansa.com//v1",
+			"tags": "Checkins",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/lufthansa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Checkins",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Checkins",
+	"include": [
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "Foursquare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/foursquare/apis.yaml"
+		},
+		{
+			"name": "AtlasCT",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/atlasct/apis.yaml"
+		},
+		{
+			"name": "Envoy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/envoy/apis.yaml"
+		},
+		{
+			"name": "Lufthansa",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/lufthansa/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checkins/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
